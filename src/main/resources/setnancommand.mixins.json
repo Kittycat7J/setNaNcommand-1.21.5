@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "kittycat7j.nancmd.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

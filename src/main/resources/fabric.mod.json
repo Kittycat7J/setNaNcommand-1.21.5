@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "setnancommand",
+	"version": "${version}",
+	"name": "SetNaNCommand",
+	"description": "A mod to set entity velocity to NaN.",
+	"authors": [
+		"Kittycat7J",
+		"ChatGPT"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/setnancommand/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"kittycat7j.nancmd.SetNaNCommand"
+		]
+	},
+	"mixins": [
+		"setnancommand.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
